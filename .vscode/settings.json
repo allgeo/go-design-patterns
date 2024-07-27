@@ -1,0 +1,4 @@
+{
+    "WhiteSource Advise.Diff.BaseBranch": "main",
+    "sarif-viewer.connectToGithubCodeScanning": "off"
+}
