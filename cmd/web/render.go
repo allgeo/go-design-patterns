@@ -45,8 +45,8 @@ func (app *application) render(w http.ResponseWriter, t string, td *templateDate
 func (app *application) buildTemplateFromDisk(t string) (*template.Template, error) {
 	templateSlice := []string{
 		"./templates/base.tmpl",
-		"./templates/header.tmpl",
-		"./templates/footer.tmpl",
+		"./templates/partials/header.tmpl",
+		"./templates/partials/footer.tmpl",
 		fmt.Sprintf("./templates/%s", t),
 	}
 
